@@ -8,7 +8,7 @@ public class searching {
                 return i;
             }
         }
-        return -1; // Element not found
+        return -1; 
     }
 
     public static int binarySearch(int[] arr, int target) {
@@ -24,7 +24,7 @@ public class searching {
                 high = mid - 1;
             }
         }
-        return -1; // Element not found
+        return -1; 
     }
 
     public static void main(String[] args) {
