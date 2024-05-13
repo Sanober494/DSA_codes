@@ -33,13 +33,6 @@ class Stack{
         }
 
 
-public void pop(Student stu){
-if (isEmpty()){
-    System.out.println("Stack is empty");
-}
-arr[top--]=stu;
-}
-
 public Student pop(){
     if (isEmpty()){
         System.out.println("Stack is empty");
